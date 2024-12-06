@@ -143,11 +143,11 @@ const CriarTarefa = ({handleClose, tarefas, setTarefas}) =>{
               </FormControl>
             </Grid>
             <Grid container spacing={2} pl={2} mt={2}>
-              <Grid item xs={1}>
-                <Button size="small" variant="contained" onClick={handleSalvar}>Salvar</Button>
+              <Grid item xs={2}>
+                <Button size="big" variant="contained" onClick={handleSalvar}>Salvar</Button>
               </Grid>  
-              <Grid item xs={1}>  
-                <Button size="small" variant="outlined" onClick={handleClose}>Cancelar</Button>  
+              <Grid item xs={2}>  
+                <Button size="big" variant="outlined" onClick={handleClose}>Cancelar</Button>  
               </Grid>
             </Grid>  
           </Grid>
